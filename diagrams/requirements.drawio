@@ -1,0 +1,27 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0" version="29.6.0">
+  <diagram name="Page-1" id="Y1GLYQktEolwluOaJMl9">
+    <mxGraphModel dx="1016" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Qi7Rt0QHbORMbEUXNmz_-27" parent="1" style="swimlane;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=1;collapsible=0;marginBottom=0;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="&lt;&lt;Requirement&gt;&gt;&#xa;s_authentifier" vertex="1">
+          <mxGeometry height="140" width="215" x="20" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Qi7Rt0QHbORMbEUXNmz_-28" parent="Qi7Rt0QHbORMbEUXNmz_-27" style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacing=6;overflow=hidden;rotatable=0;connectable=0;fontColor=#ffffff;" value="Id: 1.0&#xa;Text: formulaire login/mdp&#xa;Risk: Medium&#xa;Verification: Test" vertex="1">
+          <mxGeometry height="100" width="215" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Qi7Rt0QHbORMbEUXNmz_-29" parent="1" style="swimlane;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=1;collapsible=0;marginBottom=0;" value="&lt;&lt;Element&gt;&gt;&#xa;moncompte_dawan" vertex="1">
+          <mxGeometry height="136" width="187" x="34" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Qi7Rt0QHbORMbEUXNmz_-30" parent="Qi7Rt0QHbORMbEUXNmz_-29" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=6;overflow=hidden;rotatable=0;connectable=0;" value="Type: system&#xa;Doc Ref: service dawan" vertex="1">
+          <mxGeometry height="96" width="187" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Qi7Rt0QHbORMbEUXNmz_-31" edge="1" parent="1" source="Qi7Rt0QHbORMbEUXNmz_-29" style="curved=1;startArrow=circlePlus;startSize=10;startFill=0;;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Qi7Rt0QHbORMbEUXNmz_-27" value="&lt;&lt;contains&gt;&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

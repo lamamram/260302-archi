@@ -1,0 +1,15 @@
+requirementDiagram
+
+    element moncompte_dawan {
+        type: system
+        docref: service dawan
+    }
+
+    requirement s_authentifier {
+        id: 1.0
+        text: formulaire login/mdp
+        risk: medium
+        verifymethod: test
+    }
+
+    moncompte_dawan - contains -> s_authentifier
